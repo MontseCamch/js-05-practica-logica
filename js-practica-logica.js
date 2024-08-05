@@ -12,6 +12,7 @@ function displayInformation(){
 displayInformation();
 //-------------------
 
+
 //Highest number
 let indx = 1;
 let highest=0;
@@ -27,7 +28,7 @@ while (indx <= 10) {
 }
 
 console.log(`El número mayor es: ${highest}`);
-
+//-------------------
 
 
 //Alarm
@@ -39,6 +40,7 @@ function getUser(){
 setTimeout(getUser, seconds * 1000);
 console.log(`Time for bed after ${seconds} seconds`);
 //-------------------
+
 
 //Palindrome
 let text = prompt("Introduce una palabra o frase");
@@ -56,6 +58,7 @@ function palindrome() {
 palindrome();
 //-------------------
 
+
 //Factorial
 function factorialRecursivo (n) {
     if (n == 0){
@@ -65,6 +68,7 @@ function factorialRecursivo (n) {
   }
 console.log(factorialRecursivo(7));
 //-------------------
+
 
 //Flat array
 //let multiDimension = [1, [2, 3, [4, 5, [6]]]];
